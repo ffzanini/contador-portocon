@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-dark-theme: #161618;
+  --color-white-theme: #f1f2f3;
+
+  /* Cores primárias */
+  --color-primary-50: #e6eaed;
+  --color-primary-100: #b5bfc9;
+  --color-primary-200: #8494a5;
+  --color-primary-300: #536980;
+  --color-primary-400: #3a536e;
+  --color-primary-500: #0b2a4b; /* main color */
+  --color-primary-600: #0b2a4b;
+  --color-primary-700: #082443;
+  --color-primary-800: #07203b;
+
+  /* Cores secundárias */
+  --color-secondary-50: #f8f3eb;
+  --color-secondary-100: #f0e7d7;
+  --color-secondary-200: #e1d0af;
+  --color-secondary-300: #d3b887;
+  --color-secondary-400: #c4a15f;
+  --color-secondary-500: #b58937; /* main color */
+  --color-secondary-600: #916e2c;
+  --color-secondary-700: #6d5221;
+  --color-secondary-800: #483716;
+
+  /* Espaçamentos */
+  --spacing-section: 3rem; /* 36px */
+  --spacing-section-lg: 6rem; /* 96px */
+  --spacing-section-xl: 8rem; /* 128px */
+
+  /* Tipografia */
+  --font-display: var(--font-roboto);
+  --font-body: var(--font-roboto);
+
+  /* Border radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+}
+
+/* Classes utilitárias */
+.section-padding {
+  padding-top: var(--spacing-section);
+  padding-bottom: var(--spacing-section);
+}
+
+.section-padding-lg {
+  padding-top: var(--spacing-section-lg);
+  padding-bottom: var(--spacing-section-lg);
+}
+
+.container-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-padding {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

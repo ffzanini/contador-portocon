@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://protocon.com.br
+
+# Sitemaps
+Sitemap: https://protocon.com.br/sitemap.xml
