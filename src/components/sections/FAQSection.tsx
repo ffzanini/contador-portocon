@@ -40,14 +40,14 @@ export function FAQSection({
               <button
                 type="button"
                 onClick={() => toggleFAQ(index)}
-                className="flex w-full items-center justify-between p-6 text-left transition-colors hover:bg-secondary-50"
+                className="flex w-full items-center justify-between gap-3 p-6 text-left transition-colors hover:bg-secondary-50"
               >
-                <span className="font-semibold text-gray-900">
+                <span className="min-w-0 flex-1 font-semibold text-gray-900">
                   {faq.question}
                 </span>
                 <RiArrowDownSLine
                   className={cn(
-                    "h-5 w-5 text-gray-500 transition-transform",
+                    "h-5 w-5 shrink-0 text-gray-500 transition-transform",
                     openIndex === index && "rotate-180",
                   )}
                 />

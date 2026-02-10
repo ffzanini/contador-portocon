@@ -17,7 +17,7 @@ export function ChangeAccountantSection() {
         <div className="shrink-0">
           <CTAButton
             href="/mudar-de-contador"
-            className="whitespace-nowrap px-8 py-4"
+            className="sm:whitespace-nowrap px-8 py-4"
           >
             MUDAR DE CONTADOR
           </CTAButton>

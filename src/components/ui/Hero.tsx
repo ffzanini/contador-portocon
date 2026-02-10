@@ -61,7 +61,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
               priority
             />
             <div
-              className="absolute -right-16 -top-8 h-[380px] w-[380px] rounded-full bg-primary-600/25 mix-blend-multiply"
+              className="absolute -right-16 -top-8 h-[200px] w-[200px] rounded-full bg-primary-600/25 mix-blend-multiply md:h-[380px] md:w-[380px]"
               aria-hidden
             />
           </div>
@@ -84,7 +84,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
               priority
             />
             <div
-              className="absolute -bottom-16 -left-8 h-[380px] w-[380px] rounded-full bg-secondary-600/25 mix-blend-multiply"
+              className="absolute -bottom-16 -left-8 h-[200px] w-[200px] rounded-full bg-secondary-600/25 mix-blend-multiply md:h-[380px] md:w-[380px]"
               aria-hidden
             />
           </div>
@@ -119,7 +119,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
               priority
             />
             <div
-              className="absolute -bottom-16 -left-8 h-[380px] w-[380px] rounded-full bg-secondary-600/25 mix-blend-multiply"
+              className="absolute -bottom-16 -left-8 h-[200px] w-[200px] rounded-full bg-secondary-600/25 mix-blend-multiply md:h-[380px] md:w-[380px]"
               aria-hidden
             />
           </div>
@@ -142,10 +142,10 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
 
   if (variant === "sobre") {
     return (
-      <section className="relative min-h-[80vh] overflow-hidden bg-linear-to-b from-primary-50 to-white md:min-h-0 md:py-16 lg:py-20">
+      <section className="relative min-h-0 overflow-hidden bg-linear-to-b from-primary-50 to-white py-10 md:py-16 lg:py-20">
         <div className="container-padding mx-auto max-w-7xl">
           <div className="mx-auto max-w-4xl">
-            <div className="relative text-center">
+            <div className="relative pt-12 text-center md:pt-0">
               <h1 className="relative z-10 mb-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
                 {HERO_TEXTS.sobre.title}
               </h1>
@@ -156,7 +156,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
                 <WhatsAppButton message={WHATSAPP_MESSAGES.sobre} />
               </div>
               <div
-                className="absolute left-1/2 top-1/2 h-[480px] w-[480px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary-600/25 mix-blend-multiply"
+                className="absolute left-1/2 top-1/2 h-[240px] w-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary-600/25 mix-blend-multiply md:h-[480px] md:w-[480px]"
                 aria-hidden
               />
             </div>

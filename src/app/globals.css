@@ -50,6 +50,11 @@
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
 }
 
+/* Evita scroll horizontal em viewports pequenos */
+html {
+  overflow-x: hidden;
+}
+
 /* Classes utilitárias */
 .section-padding {
   padding-top: var(--spacing-section);

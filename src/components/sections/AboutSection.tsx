@@ -11,7 +11,7 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
   if (variant === "change-accountant") {
     return (
       <Section>
-        <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-primary-600 p-8 shadow-lg md:flex-row md:gap-8 md:p-10">
+        <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-primary-600 p-6 shadow-lg md:flex-row md:gap-8 md:p-8 lg:p-10">
           <div className="flex-1 text-left">
             <h2 className="mb-2 text-2xl font-bold text-white md:text-3xl lg:text-4xl">
               Mude para uma contabilidade que ajuda a deixar seu dia mais fácil.
@@ -37,7 +37,7 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
   if (variant === "summary") {
     return (
       <Section>
-        <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-primary-600 p-8 shadow-lg md:flex-row md:gap-8 md:p-10">
+        <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-primary-600 p-6 shadow-lg md:flex-row md:gap-8 md:p-8 lg:p-10">
           <div className="flex-1 text-left">
             <h2 className="mb-2 text-2xl font-bold text-white md:text-3xl lg:text-4xl">
               Contabilidade exige tempo, mas não o seu.

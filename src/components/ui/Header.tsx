@@ -97,7 +97,7 @@ export function Header() {
               alt="Protocon Contabilidade"
               width={1300}
               height={400}
-              className="h-18 w-auto object-contain"
+              className="h-14 w-auto max-h-14 object-contain md:max-h-none md:h-16"
               priority
             />
           </Link>

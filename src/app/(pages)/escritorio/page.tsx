@@ -81,7 +81,7 @@ export default function EscritorioPage() {
             </div>
 
             <div className="mb-12 grid gap-8 md:grid-cols-3">
-              <div className="rounded-xl bg-white p-8 shadow-md">
+              <div className="rounded-xl bg-white p-6 shadow-md md:p-8">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
                   Localização
                 </h3>
@@ -91,7 +91,7 @@ export default function EscritorioPage() {
                 </p>
               </div>
 
-              <div className="rounded-xl bg-white p-8 shadow-md">
+              <div className="rounded-xl bg-white p-6 shadow-md md:p-8">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
                   Contato
                 </h3>
@@ -109,7 +109,7 @@ export default function EscritorioPage() {
                 </div>
               </div>
 
-              <div className="rounded-xl bg-white p-8 shadow-md">
+              <div className="rounded-xl bg-white p-6 shadow-md md:p-8">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
                   Redes sociais
                 </h3>

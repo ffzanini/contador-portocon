@@ -30,7 +30,7 @@ export default function TermosDeUsoPage() {
       />
       <Header />
       <main>
-        <article className="container-padding mx-auto max-w-4xl py-12">
+        <article className="container-padding mx-auto max-w-4xl wrap-break-word py-12">
           <div className="space-y-6 text-gray-700 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-gray-900 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-gray-900 [&_ol]:list-decimal [&_ol]:pl-6 [&_li]:my-2">
             <h2>1. Termos</h2>
             <p>
