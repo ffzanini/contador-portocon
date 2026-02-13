@@ -7,6 +7,7 @@ import { Section } from "@/components/ui/Section";
 import { PageLoader } from "@/components/ui/PageLoader";
 import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
 import { CHANGE_ACCOUNTANT_STEPS, FAQS } from "@/constants/portocon";
+import { PARTNERSHIP_CONSIDERATIONS } from "@/constants/services";
 import { SITE_URL } from "@/constants/seo";
 import { ContactOptions } from "@/components/ui/ContactOptions";
 
@@ -133,6 +134,35 @@ export default function MudeDeContadorPage() {
                 </p>
                 <ContactOptions emailSubject="Trocar de Contador" />
               </div>
+            </div>
+          </div>
+        </Section>
+        <Section className="bg-gray-50">
+          <div className="mx-auto max-w-7xl">
+            <div className="mb-8 text-center">
+              <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">
+                {PARTNERSHIP_CONSIDERATIONS.title}
+              </h2>
+              <p className="mx-auto max-w-3xl text-lg text-gray-600">
+                O que esperar nos primeiros dias após a troca de contador.
+              </p>
+            </div>
+            <div className="flex flex-col gap-6">
+              {PARTNERSHIP_CONSIDERATIONS.considerations.map(
+                (consideration, index) => (
+                  <div
+                    key={index}
+                    className="rounded-xl bg-white p-6 shadow-md border-l-4 border-primary-600"
+                  >
+                    <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                      {consideration.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {consideration.description}
+                    </p>
+                  </div>
+                ),
+              )}
             </div>
           </div>
         </Section>

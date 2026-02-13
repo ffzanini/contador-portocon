@@ -50,7 +50,7 @@ export const HERO_TEXTS = {
   sobre: {
     title: "Contabilidade de empresas feita para as pessoas",
     subtitle:
-      "Um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade. Foco em descomplicar a rotina do pequeno empresário.",
+      "Nossa contabilidade nasceu com o propósito de oferecer segurança e apoio estratégico ao empresário. Somos estruturados em três setores especializados em Contábil, Fiscal e de Folha. Contamos com uma equipe de profissionais com mais de 10 anos de experiência no mercado.",
   },
   abrirEmpresa: {
     title:
@@ -67,10 +67,10 @@ export const HERO_TEXTS = {
     title: "Nosso escritório",
     subtitle: "Um espaço físico pronto para receber você sempre que precisar.",
   },
-  plataforma: {
-    title: "Nossa Plataforma",
+  servicos: {
+    title: "Serviços que se adaptam à realidade da sua empresa",
     subtitle:
-      "Tenha toda a contabilidade da sua empresa organizada e sempre disponível.",
+      "Contábil, fiscal e trabalhista. Conte com nossa equipe para organizar sua empresa e deixar os números em dia.",
   },
 } as const;
 
@@ -218,10 +218,20 @@ export const PERSONALITY = [
 
 export const DEPARTMENTS = [
   {
-    name: "Dep. Fiscal",
-    title: "Entenda seus impostos",
+    name: "Dep. Contábil",
+    title: "Área Contábil",
     description:
-      "Tenha uma visão clara de todos seus impostos e demais guias de pagamento e pare de pagar boletos sem saber o que é.",
+      "Execução da contabilidade conforme as normas vigentes, com escrituração completa dos livros Diário e Razão, emissão de relatórios mensais detalhados, balanços, balancetes e DRE. Gestão patrimonial e suporte consultivo direto.",
+    image: {
+      src: "/images/hero/hero-3.jpg",
+      alt: "Departamento Contábil - Organize os documentos",
+    },
+  },
+  {
+    name: "Dep. Fiscal",
+    title: "Área Fiscal",
+    description:
+      "Orientação consultiva sobre dispositivos legais vigentes, escrituração de registros fiscais (IPI, ICMS, ISS), emissão de guias de recolhimento de tributos, atendimento às obrigações acessórias e suporte em procedimentos de fiscalização tributária.",
     image: {
       src: "/images/hero/hero-1.jpg",
       alt: "Departamento Fiscal - Entenda seus impostos",
@@ -229,22 +239,12 @@ export const DEPARTMENTS = [
   },
   {
     name: "Dep. Pessoal",
-    title: "Gerencie seus funcionários",
+    title: "Área Trabalhista e Previdenciária",
     description:
-      "Tenha a segurança e facilidade de gerenciar seus funcionários e todas suas obrigações em uma interface simples e amigável.",
+      "Orientação técnica sobre CLT, Convenções Coletivas e normas da Previdência Social e FGTS. Elaboração completa da Folha de Pagamento, emissão de guias de encargos sociais (INSS, FGTS) e acompanhamento em procedimentos de fiscalização do trabalho.",
     image: {
       src: "/images/hero/hero-2.jpg",
       alt: "Departamento Pessoal - Gerencie seus funcionários",
-    },
-  },
-  {
-    name: "Dep. Contábil",
-    title: "Organize os documentos",
-    description:
-      "Mantenha sua empresa em dia enviando seus documentos todo mês direto, de forma simples, rápida e fácil.",
-    image: {
-      src: "/images/hero/hero-3.jpg",
-      alt: "Departamento Contábil - Organize os documentos",
     },
   },
 ] as const;
@@ -312,7 +312,10 @@ export const WHATSAPP_MESSAGES = {
     "Olá! Gostaria de falar com um consultor. Estou interessado em: Trocar de contador. Vi o contato no site!",
   outrosServicos:
     "Olá! Gostaria de falar com um consultor. Estou interessado em: Contratar outro tipo de serviço. Vi o contato no site!",
-  sobre: "Olá! Gostaria de conhecer mais sobre a Portocon Contabilidade e Assessoria LTDA.",
+  sobre:
+    "Olá! Gostaria de conhecer mais sobre a Portocon Contabilidade e Assessoria LTDA.",
   escritorio:
     "Olá! Gostaria de saber mais sobre o escritório físico da Portocon.",
+  servicos:
+    "Olá! Tenho interesse em conhecer os serviços da Portocon e receber uma proposta. Vi o site!",
 } as const;

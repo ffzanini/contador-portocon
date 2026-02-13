@@ -15,6 +15,7 @@ const navigation = [
 
 const sobreMenuItems = [
   { name: "Sobre Portocon", href: "/sobre" },
+  { name: "Serviços Prestados", href: "/servicos-prestados" },
   { name: "Nosso escritório", href: "/escritorio" },
 ];
 
@@ -145,22 +146,22 @@ export function Header() {
               </button>
 
               {sobreDropdownOpen && (
-                <div className="absolute left-0 top-full w-42">
+                <div className="absolute left-0 top-full">
                   <div className="h-1" />
-                  <div className="rounded-lg bg-white shadow-lg">
+                  <div className="min-w-[24ch] rounded-lg bg-white py-1 shadow-lg">
                     {sobreMenuItems.map((item) => {
                       const isActive = pathname === item.href;
                       return (
                         <Link
-                          key={item.name}
-                          href={item.href}
-                          className={cn(
-                            "block px-4 py-2 text-base font-semibold transition-colors hover:bg-secondary-50 hover:text-secondary-600",
-                            isActive ? "text-secondary-600" : "text-gray-700",
-                          )}
-                        >
-                          {item.name}
-                        </Link>
+                            key={item.name}
+                            href={item.href}
+                            className={cn(
+                              "block whitespace-nowrap px-4 py-2 text-base font-semibold transition-colors hover:bg-secondary-50 hover:text-secondary-600",
+                              isActive ? "text-secondary-600" : "text-gray-700",
+                            )}
+                          >
+                            {item.name}
+                          </Link>
                       );
                     })}
                   </div>

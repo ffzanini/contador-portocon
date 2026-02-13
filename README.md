@@ -8,7 +8,7 @@
 
 ## 📋 Sobre o projeto
 
-Este repositório contém o **site institucional** da **Portocon Contabilidade e Assessoria LTDA**, pensado como vitrine dos serviços, diferenciais e formas de contato da empresa. O foco é **usabilidade** e **clareza**: navegação intuitiva, páginas dedicadas (abrir empresa, mudar de contador, escritório, sobre), tema claro/escuro e integração com WhatsApp.
+Este repositório contém o **site institucional** da **Portocon Contabilidade e Assessoria LTDA**, pensado como vitrine dos serviços, diferenciais e formas de contato da empresa. O foco é **usabilidade** e **clareza**: navegação intuitiva, páginas dedicadas (abrir empresa, mudar de contador, escritório, sobre) e integração com WhatsApp.
 
 O projeto foi desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS**, priorizando performance, SEO (sitemap, metadados) e boa experiência em dispositivos móveis e desktop.
 
@@ -16,8 +16,7 @@ O projeto foi desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS**, p
 
 ## ✨ Funcionalidades
 
-- **Páginas:** Home, Sobre, Abrir empresa, Mudar de contador, Escritório, Política de privacidade e Termos de uso
-- **Tema:** Alternância entre modo claro e escuro (next-themes)
+- **Páginas:** Home, Sobre, Abrir empresa, Mudar de contador, Escritório, Serviços Prestados, Política de privacidade e Termos de uso
 - **SEO:** Sitemap e metadados configurados para indexação
 - **Analytics:** Integração com Vercel Analytics e Speed Insights
 - **Contato:** Botão flutuante de WhatsApp e seção de contato humano
@@ -42,7 +41,6 @@ O projeto foi desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS**, p
 | Tecnologia                                                                                           | Uso                        |
 | ---------------------------------------------------------------------------------------------------- | -------------------------- |
 | [React Icons](https://react-icons.github.io/react-icons/)                                            | Ícones                     |
-| [next-themes](https://github.com/pacocoursey/next-themes)                                            | Tema claro/escuro          |
 | [next-sitemap](https://github.com/iamvishnusankar/next-sitemap)                                      | Geração de sitemap         |
 | [react-hot-toast](https://react-hot-toast.com/)                                                      | Notificações (toast)       |
 | [tailwind-merge](https://github.com/dcastil/tailwind-merge) + [clsx](https://github.com/lukeed/clsx) | Utilitários de classe (cn) |

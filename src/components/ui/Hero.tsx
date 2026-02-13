@@ -12,7 +12,7 @@ type HeroVariant =
   | "mudeDeContador"
   | "sobre"
   | "escritorio"
-  | "plataforma";
+  | "servicos";
 
 function pathnameToVariant(pathname: string | null): HeroVariant {
   if (pathname === "/") return "home";
@@ -20,7 +20,7 @@ function pathnameToVariant(pathname: string | null): HeroVariant {
   if (pathname === "/mudar-de-contador") return "mudeDeContador";
   if (pathname === "/sobre") return "sobre";
   if (pathname === "/escritorio") return "escritorio";
-  if (pathname === "/plataforma") return "plataforma";
+  if (pathname === "/servicos-prestados") return "servicos";
   return "home";
 }
 
@@ -166,6 +166,32 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
     );
   }
 
+  if (variant === "servicos") {
+    return (
+      <section className="relative min-h-0 overflow-hidden bg-linear-to-b from-primary-50 to-white py-10 md:py-16 lg:py-28">
+        <div className="container-padding mx-auto max-w-7xl">
+          <div className="mx-auto max-w-4xl">
+            <div className="relative pt-12 text-center md:pt-0">
+              <h1 className="relative z-10 mb-6 text-4xl font-bold leading-tight text-gray-900 md:text-5xl lg:text-6xl">
+                {HERO_TEXTS.servicos.title}
+              </h1>
+              <p className="relative z-10 mb-8 text-lg text-gray-600 md:text-xl lg:text-2xl">
+                {HERO_TEXTS.servicos.subtitle}
+              </p>
+              <div className="relative z-10 flex justify-center">
+                <WhatsAppButton message={WHATSAPP_MESSAGES.servicos} />
+              </div>
+              <div
+                className="absolute left-1/2 top-1/2 h-[240px] w-[240px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary-600/25 mix-blend-multiply md:h-[480px] md:w-[480px]"
+                aria-hidden
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   if (variant === "escritorio") {
     return (
       <section className="relative min-h-[80vh] overflow-hidden bg-primary-50 md:min-h-0 md:py-16 lg:py-20">
@@ -205,17 +231,15 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
     );
   }
 
-  const fallbackTexts =
-    variant === "plataforma" ? HERO_TEXTS.plataforma : HERO_TEXTS.home;
   return (
     <section className="relative min-h-[80vh] overflow-hidden bg-primary-50 md:min-h-0 md:py-16 lg:py-20">
       <div className="container-padding mx-auto max-w-7xl">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl">
-            {fallbackTexts.title}
+            {HERO_TEXTS.home.title}
           </h1>
           <p className="mb-8 text-xl text-gray-600 md:text-2xl">
-            {fallbackTexts.subtitle}
+            {HERO_TEXTS.home.subtitle}
           </p>
         </div>
       </div>

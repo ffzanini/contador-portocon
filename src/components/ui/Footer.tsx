@@ -12,6 +12,7 @@ const footerNavigation = {
   contabilidade: [
     { name: "Abrir empresa", href: "/abrir-empresa" },
     { name: "Mudar de contador", href: "/mudar-de-contador" },
+    { name: "Serviços Prestados", href: "/servicos-prestados" },
     {
       name: "Fale com um de nossos especialistas",
       href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade e Assessoria LTDA.")}`,

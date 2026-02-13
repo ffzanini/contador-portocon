@@ -24,6 +24,7 @@ export function WhatsAppButton({
     if (pathname === "/mudar-de-contador")
       return WHATSAPP_MESSAGES.mudeDeContador;
     if (pathname === "/sobre") return WHATSAPP_MESSAGES.sobre;
+    if (pathname === "/servicos-prestados") return WHATSAPP_MESSAGES.servicos;
     return WHATSAPP_MESSAGES.home;
   };
 
