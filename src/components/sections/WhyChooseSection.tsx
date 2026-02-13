@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/Section";
-import { WHY_CHOOSE, WHATSAPP_MESSAGES, PROTOCON } from "@/constants/protocon";
+import { WHY_CHOOSE, WHATSAPP_MESSAGES, PORTOCON } from "@/constants/portocon";
 import { RiArrowRightLine } from "react-icons/ri";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +12,7 @@ export function WhyChooseSection() {
   };
 
   const getWhatsAppUrl = (link: string) =>
-    `https://api.whatsapp.com/send/?phone=${PROTOCON.contact.whatsapp}&text=${encodeURIComponent(getWhatsAppMessage(link))}`;
+    `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent(getWhatsAppMessage(link))}`;
 
   return (
     <Section>
@@ -20,12 +20,12 @@ export function WhyChooseSection() {
         <div className="grid gap-12 md:grid-cols-2 md:items-center">
           <div className="flex flex-col gap-12">
             <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-              Por que a Protocon é a melhor escolha
+              Por que a Portocon é a melhor escolha
             </h2>
             <div className="overflow-hidden rounded-xl">
               <Image
                 src="/images/hero/hero-1.jpg"
-                alt="Por que a Protocon é a melhor escolha"
+                alt="Por que a Portocon é a melhor escolha"
                 width={550}
                 height={480}
                 className="h-auto w-full object-cover"

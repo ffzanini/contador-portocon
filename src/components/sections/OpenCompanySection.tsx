@@ -1,6 +1,7 @@
 import { Section } from "@/components/ui/Section";
 import { StepCard } from "@/components/ui/StepCard";
-import { OPEN_COMPANY_STEPS } from "@/constants/protocon";
+import { ContactOptions } from "@/components/ui/ContactOptions";
+import { OPEN_COMPANY_STEPS } from "@/constants/portocon";
 
 export function OpenCompanySection() {
   return (
@@ -20,6 +21,14 @@ export function OpenCompanySection() {
             image={step.image}
           />
         ))}
+      </div>
+      <div className="mt-12 flex justify-center">
+        <div className="text-center">
+          <p className="mb-4 text-lg font-semibold text-gray-900">
+            Fale com nosso especialista ou abra um CNPJ
+          </p>
+          <ContactOptions whatsappMessage={OPEN_COMPANY_STEPS[0].title} emailSubject="Abrir Empresa" />
+        </div>
       </div>
     </Section>
   );

@@ -52,7 +52,7 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
               href="/abrir-empresa"
               className="inline-flex items-center justify-center rounded-lg bg-gray-900 px-8 py-4 text-base font-semibold uppercase tracking-wide text-white transition-all duration-200 hover:bg-secondary-600 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 focus:ring-offset-primary-600"
             >
-              Abra a sua empresa
+              Converse Conosco
             </Link>
           </div>
         </div>
@@ -67,7 +67,7 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
           <div className="relative order-2 aspect-4/3 overflow-hidden rounded-2xl lg:order-1 lg:aspect-auto lg:min-h-[400px]">
             <Image
               src="/images/hero/hero-1.jpg"
-              alt="Sobre a Protocon Contabilidade"
+              alt="Sobre a Portocon Contabilidade"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -82,11 +82,11 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
 
           <div className="order-1 lg:order-2">
             <h2 className="mb-6 text-3xl font-bold text-gray-900 md:text-4xl">
-              Sobre a Protocon
+              Sobre a Portocon
             </h2>
             <div className="space-y-4 text-lg text-gray-600">
               <p>
-                A Protocon é um escritório novo, fundado por uma dupla de sócios
+                A Portocon é um escritório novo, fundado por uma dupla de sócios
                 com anos de experiência em contabilidade. Unimos prática e
                 tecnologia para descomplicar a rotina do pequeno empresário, com
                 atendimento humanizado e dedicado.

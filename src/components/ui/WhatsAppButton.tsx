@@ -1,7 +1,7 @@
 "use client";
 
 import { RiWhatsappLine } from "react-icons/ri";
-import { PROTOCON, WHATSAPP_MESSAGES } from "@/constants/protocon";
+import { PORTOCON, WHATSAPP_MESSAGES } from "@/constants/portocon";
 import { usePathname } from "next/navigation";
 import { cn } from "@/libs/cn";
 
@@ -27,7 +27,7 @@ export function WhatsAppButton({
     return WHATSAPP_MESSAGES.home;
   };
 
-  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PROTOCON.contact.whatsapp}&text=${encodeURIComponent(getMessage())}`;
+  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent(getMessage())}`;
 
   if (variant === "link") {
     return (

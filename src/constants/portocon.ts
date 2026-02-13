@@ -1,24 +1,31 @@
-export const PROTOCON = {
-  name: "Protocon Contabilidade",
-  nameShort: "Protocon",
-  cnpj: "00.000.000/0001-00",
-  crc: "000000/O",
+export const PORTOCON = {
+  name: "Portocon Contabilidade",
+  nameShort: "Portocon",
+  legalName: "Portocon Contabilidade e Assessoria LTDA",
+  cnpj: "58.886.595/0001-04",
+  crc: "SC-012751/O-5",
   address: {
-    street: "Rua Exemplo, 123",
-    city: "Cidade",
+    street: "R. Henrique Knihs, 370",
+    neighborhood: "Águas Claras",
+    city: "Brusque",
     state: "SC",
-    zipCode: "00000-000",
-    full: "Rua Exemplo, 123. Cidade - SC - 00000-000",
+    zipCode: "88.353-690",
+    full: "R. Henrique Knihs, 370 - Águas Claras, Brusque - SC, 88.353-690",
   },
   contact: {
-    whatsapp: "5547999999999",
-    email: "contato@protocon.com.br",
-    phone: "(47) 99999-9999",
+    whatsapp: "554792694174",
+    email: "contabil@contabilidadeportocon.com.br",
+    emails: {
+      contabil: "contabil@contabilidadeportocon.com.br",
+      fiscal: "fiscal@contabilidadeportocon.com.br",
+      rh: "rh@contabilidadeportocon.com.br",
+    },
+    phone: "(47) 9269-4174",
     officeHours: "Segunda a Sexta: 8h às 18h",
   },
   socials: {
-    instagram: "https://www.instagram.com/protocon/",
-    linkedin: "https://www.linkedin.com/company/protocon/",
+    instagram: "https://www.instagram.com/portocon/",
+    linkedin: "https://www.linkedin.com/company/portocon/",
   },
   stats: {
     foundedYear: 2024,
@@ -36,9 +43,9 @@ export const PROTOCON = {
 export const HERO_TEXTS = {
   home: {
     title:
-      "Contabilidade que inspira confiança. Do primeiro CNPJ ao dia a dia do seu negócio.",
+      "Seu porto seguro empresarial. Contabilidade personalizada para cuidar da sua empresa.",
     subtitle:
-      "Somos especialistas em abrir empresas e cuidar da rotina contábil. Processos claros, atendimento humano e tudo em dia — para você focar no que realmente importa.",
+      "Não somos especialistas genéricos. Somos personalizados para cuidar da sua empresa. Do primeiro CNPJ ao dia a dia do seu negócio, oferecemos a segurança empresarial que você merece.",
   },
   sobre: {
     title: "Contabilidade de empresas feita para as pessoas",
@@ -103,9 +110,9 @@ export const OPEN_COMPANY_STEPS = [
 export const CHANGE_ACCOUNTANT_STEPS = [
   {
     number: 1,
-    title: "Conheça a Protocon",
+    title: "Conheça a Portocon",
     description:
-      "Converse com a Protocon e veja como podemos te ajudar. Somos uma dupla de sócios com escritório novo e atendimento dedicado. Aproveitamos para conhecer você e a sua empresa e revisar sua situação contábil e fiscal atual.",
+      "Converse com a Portocon e veja como podemos te ajudar. Somos uma contabilidade com o propósito de te trazer a segurança empresarial que você merece, além de um atendimento completamente personalizado para a sua situação.",
     image: {
       src: "/images/hero/hero-1.jpg",
       alt: "Conheça nossa dupla de sócios",
@@ -123,12 +130,12 @@ export const CHANGE_ACCOUNTANT_STEPS = [
   },
   {
     number: 3,
-    title: "Seja bem vindo Na Protocon",
+    title: "Seja bem vindo Na Portocon",
     description:
-      "A partir de agora você fará parte da Protocon e terá à sua disposição todo o suporte e cuidado para manter sua empresa em dia de uma forma simples e leve.",
+      "A partir de agora você fará parte da Portocon e terá à sua disposição todo o suporte e cuidado para manter sua empresa em dia de uma forma simples e leve.",
     image: {
       src: "/images/hero/hero-3.jpg",
-      alt: "Boas-vindas e integração à Protocon",
+      alt: "Boas-vindas e integração à Portocon",
     },
   },
 ] as const;
@@ -157,7 +164,7 @@ export const WHY_CHOOSE = [
     description:
       "Colocamos as pessoas no centro de tudo. Levamos isso tão a sério que esse conceito está presente até na nossa identidade. Você não é mais um número: é nosso cliente, com nome e história.",
     link: "/sobre",
-    linkText: "Conheça a Protocon",
+    linkText: "Conheça a Portocon",
   },
   {
     title: "Descomplicamos a burocracia contábil",
@@ -244,9 +251,9 @@ export const DEPARTMENTS = [
 
 export const FAQS = [
   {
-    question: "A Protocon é confiável?",
+    question: "A Portocon é confiável?",
     answer:
-      "A Protocon é um escritório novo fundado por uma dupla de sócios com anos de atuação em contabilidade antes de abrir este negócio. Possuímos registro no CRC ativo e regularizado, que pode ser conferido no rodapé do site.",
+      "A Portocon é um escritório novo fundado por uma dupla de sócios com anos de atuação em contabilidade antes de abrir este negócio. Possuímos registro no CRC ativo e regularizado, que pode ser conferido no rodapé do site.",
   },
   {
     question: "Vocês atendem somente através da internet?",
@@ -254,19 +261,19 @@ export const FAQS = [
       "Nós nos especializamos em simplificar a contabilidade através do nosso atendimento online personalizado, mas sabemos que nada substitui o contato pessoal. Por isso nós também temos um escritório físico, pronto para te atender pessoalmente sempre que você precisar.",
   },
   {
-    question: "A Protocon atende todo tipo de empresa?",
+    question: "A Portocon atende todo tipo de empresa?",
     answer:
       "Nós somos especializados em atender micro e pequenas empresas dos regimes MEI, Simples Nacional e Lucro Presumido dos mais diversos ramos (prestadores de serviço, comércios e indústrias).",
   },
   {
     question: "Como faço para mudar de contabilidade?",
     answer:
-      "O processo de mudança de contabilidade é muito rápido e simples, sendo a única restrição o contrato de prestação de serviço com seu contador atual. Toda a troca de informação acontecerá diretamente entre a Protocon e seu atual contador, e você precisará apenas informar que deseja mudar de contabilidade, todo o restante é com a Protocon.",
+      "O processo de mudança de contabilidade é muito rápido e simples, sendo a única restrição o contrato de prestação de serviço com seu contador atual. Toda a troca de informação acontecerá diretamente entre a Portocon e seu atual contador, e você precisará apenas informar que deseja mudar de contabilidade, todo o restante é com a Portocon.",
   },
   {
-    question: "Qual é o custo da mensalidade da Protocon?",
+    question: "Qual é o custo da mensalidade da Portocon?",
     answer:
-      "O valor da mensalidade da Protocon dependerá do porte da empresa e da sua área de atuação, com valores iniciando em R$405,50 por mês. Converse com um de nossos especialistas e solicite um orçamento para sua empresa.",
+      "O valor da mensalidade da Portocon dependerá do porte da empresa e da sua área de atuação, com valores iniciando em R$405,50 por mês. Converse com um de nossos especialistas e solicite um orçamento para sua empresa.",
   },
 ] as const;
 
@@ -298,12 +305,14 @@ export const HUMAN_CONTACT_SECTION = {
 } as const;
 
 export const WHATSAPP_MESSAGES = {
-  home: "Olá! Eu preciso de especialista para me ajudar com a contabilidade da minha empresa.",
+  home: "Olá! Gostaria de falar com um consultor. Estou interessado em: Abrir uma empresa / Trocar de contador / Contratar outro tipo de serviço. Vi o contato no site!",
   abrirEmpresa:
-    "Olá! Gostaria de saber mais sobre como abrir minha empresa com a Protocon.",
+    "Olá! Gostaria de falar com um consultor. Estou interessado em: Abrir uma empresa. Vi o contato no site!",
   mudeDeContador:
-    "Olá! Gostaria de saber mais sobre como mudar de contador para a Protocon.",
-  sobre: "Olá! Gostaria de conhecer mais sobre a Protocon Contabilidade.",
+    "Olá! Gostaria de falar com um consultor. Estou interessado em: Trocar de contador. Vi o contato no site!",
+  outrosServicos:
+    "Olá! Gostaria de falar com um consultor. Estou interessado em: Contratar outro tipo de serviço. Vi o contato no site!",
+  sobre: "Olá! Gostaria de conhecer mais sobre a Portocon Contabilidade.",
   escritorio:
-    "Olá! Gostaria de saber mais sobre o escritório físico da Protocon.",
+    "Olá! Gostaria de saber mais sobre o escritório físico da Portocon.",
 } as const;

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { RiMenuLine, RiCloseLine, RiArrowDownSLine } from "react-icons/ri";
-import { PROTOCON, WHATSAPP_MESSAGES } from "@/constants/protocon";
+import { PORTOCON, WHATSAPP_MESSAGES } from "@/constants/portocon";
 import { cn } from "@/libs/cn";
 
 const navigation = [
@@ -14,7 +14,7 @@ const navigation = [
 ];
 
 const sobreMenuItems = [
-  { name: "Sobre Protocon", href: "/sobre" },
+  { name: "Sobre Portocon", href: "/sobre" },
   { name: "Nosso escritório", href: "/escritorio" },
 ];
 
@@ -29,7 +29,7 @@ export function Header() {
 
   const isSobreActive = sobreMenuItems.some((item) => pathname === item.href);
 
-  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PROTOCON.contact.whatsapp}&text=${encodeURIComponent(WHATSAPP_MESSAGES.abrirEmpresa)}`;
+  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent(WHATSAPP_MESSAGES.abrirEmpresa)}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -90,11 +90,11 @@ export function Header() {
           <Link
             href="/"
             className="flex items-center"
-            aria-label="Protocon - Página inicial"
+            aria-label="Portocon - Página inicial"
           >
             <Image
               src="/images/logo/protocon.png"
-              alt="Protocon Contabilidade"
+              alt="Portocon Contabilidade"
               width={1300}
               height={400}
               className="h-14 w-auto max-h-14 object-contain md:max-h-none md:h-16"
@@ -130,7 +130,7 @@ export function Header() {
                 className={cn(
                   "flex items-center gap-1 rounded-lg px-3 py-2 text-base font-semibold transition-all duration-200 hover:bg-secondary-50 hover:text-secondary-600 cursor-pointer",
                   sobreDropdownOpen && "bg-gray-100",
-                  isSobreActive && "text-secondary-600",
+                  isSobreActive ? "text-secondary-600" : "text-gray-700",
                 )}
                 aria-expanded={sobreDropdownOpen}
                 aria-haspopup="true"
@@ -174,7 +174,7 @@ export function Header() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-lg bg-primary-600 px-6 py-3 text-base font-semibold text-white transition-all duration-200 hover:bg-secondary-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 active:scale-95"
             >
-              Abra sua empresa
+              Converse Conosco
             </a>
           </div>
 
@@ -267,7 +267,7 @@ export function Header() {
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center rounded-lg bg-primary-600 px-6 py-3 text-base font-semibold text-white transition-all duration-200 hover:bg-secondary-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2 active:scale-95"
               >
-                Abra sua empresa
+                Converse Conosco
               </a>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { CTAButton } from "./CTAButton";
 import { WhatsAppButton } from "./WhatsAppButton";
-import { HERO_TEXTS, WHATSAPP_MESSAGES } from "@/constants/protocon";
+import { HERO_TEXTS, WHATSAPP_MESSAGES } from "@/constants/portocon";
 
 type HeroVariant =
   | "home"
@@ -54,7 +54,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
           <div className="relative aspect-4/3 overflow-hidden rounded-2xl lg:aspect-auto lg:min-h-[420px]">
             <Image
               src="/images/hero/hero-1.jpg"
-              alt="Atendimento humanizado Protocon Contabilidade"
+              alt="Atendimento humanizado Portocon Contabilidade"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 0px, 50vw"
@@ -77,7 +77,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
           <div className="relative order-2 aspect-4/3 overflow-hidden rounded-2xl lg:order-1 lg:aspect-auto lg:min-h-[420px]">
             <Image
               src="/images/hero/hero-1.jpg"
-              alt="Abrir empresa com Protocon Contabilidade"
+              alt="Abrir empresa com Portocon Contabilidade"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 0px, 50vw"
@@ -112,7 +112,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
           <div className="relative order-2 aspect-4/3 overflow-hidden rounded-2xl lg:order-1 lg:aspect-auto lg:min-h-[420px]">
             <Image
               src="/images/hero/hero-2.jpg"
-              alt="Mudar de contador para Protocon Contabilidade"
+              alt="Mudar de contador para Portocon Contabilidade"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 0px, 50vw"
@@ -189,7 +189,7 @@ export function Hero({ variant: variantProp }: HeroProps = {}) {
           <div className="relative aspect-4/3 overflow-hidden rounded-2xl lg:aspect-auto lg:min-h-[360px]">
             <Image
               src="/images/hero/hero-3.jpg"
-              alt="Escritório físico da Protocon Contabilidade"
+              alt="Escritório físico da Portocon Contabilidade"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 0px, 50vw"

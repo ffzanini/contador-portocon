@@ -1,5 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { CTAButton } from "@/components/ui/CTAButton";
+import { ContactOptions } from "@/components/ui/ContactOptions";
 
 export function ChangeAccountantSection() {
   return (
@@ -9,7 +10,7 @@ export function ChangeAccountantSection() {
           <h2 className="mb-3 text-3xl font-bold text-gray-900 md:text-4xl">
             Você já tem uma empresa?
           </h2>
-          <p className="text-base text-gray-600 md:text-lg">
+          <p className="mb-4 text-base text-gray-600 md:text-lg">
             Aproveite o seu tempo ao máximo, mude para uma contabilidade que
             ajuda a deixar seu dia mais fácil.
           </p>

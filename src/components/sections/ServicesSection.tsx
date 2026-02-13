@@ -1,6 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { DepartmentCard } from "@/components/ui/DepartmentCard";
-import { DEPARTMENTS } from "@/constants/protocon";
+import { DEPARTMENTS } from "@/constants/portocon";
 
 export function ServicesSection() {
   return (

@@ -5,7 +5,7 @@ import { Footer } from "@/components/ui/Footer";
 import { Hero } from "@/components/ui/Hero";
 import { PageLoader } from "@/components/ui/PageLoader";
 import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
-import { FAQS } from "@/constants/protocon";
+import { FAQS } from "@/constants/portocon";
 import { SITE_URL } from "@/constants/seo";
 
 const AboutSection = dynamic(
@@ -63,14 +63,25 @@ const PeopleFocusedSection = dynamic(
   },
 );
 
+const ServicesOfferedSection = dynamic(
+  () =>
+    import("@/components/sections/ServicesOfferedSection").then((mod) => ({
+      default: mod.ServicesOfferedSection,
+    })),
+  {
+    loading: () => <PageLoader />,
+    ssr: true,
+  },
+);
+
 export const metadata: Metadata = {
-  title: "Sobre | Protocon Contabilidade",
+  title: "Sobre | Portocon Contabilidade",
   description:
-    "Conheça a Protocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade. Contabilidade prática, moderna e humanizada.",
+    "Conheça a Portocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade. Contabilidade prática, moderna e humanizada.",
   openGraph: {
-    title: "Sobre | Protocon Contabilidade",
+    title: "Sobre | Portocon Contabilidade",
     description:
-      "Conheça a Protocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade.",
+      "Conheça a Portocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade.",
     url: `${SITE_URL}/sobre`,
   },
 };
@@ -88,6 +99,7 @@ export default function SobrePage() {
       <main>
         <Hero variant="sobre" />
         <AboutSection variant="full" />
+        <ServicesOfferedSection />
         <PersonalitySection />
         <StatsSection />
         <FAQSection faqs={FAQS} />

@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/Section";
-import { HUMAN_CONTACT_SECTION } from "@/constants/protocon";
+import { HUMAN_CONTACT_SECTION } from "@/constants/portocon";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export function HumanContactSection() {

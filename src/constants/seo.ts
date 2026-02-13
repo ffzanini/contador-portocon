@@ -1,22 +1,22 @@
 export const SITE_URL = "https://contabilidadeprotocon.com.br" as const;
 
 export const PERSON = {
-  name: "Protocon Contabilidade",
-  nameShort: "Protocon",
-  nickname: "protocon",
+  name: "Portocon Contabilidade",
+  nameShort: "Portocon",
+  nickname: "portocon",
   jobTitle: "Contabilidade",
   jobTitleEn: "Accounting",
   description:
-    "Protocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
+    "Portocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
   descriptionLong:
-    "Protocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
+    "Portocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
 } as const;
 
 export const SEO_KEYWORDS = [
-  "Protocon",
-  "Protocon Contabilidade",
-  "contabilidade Protocon",
-  "escritório Protocon",
+  "Portocon",
+  "Portocon Contabilidade",
+  "contabilidade Portocon",
+  "escritório Portocon",
 
   "contabilidade",
   "contador",
@@ -72,5 +72,5 @@ export const DEFAULT_OG_IMAGE = {
   url: "/images/og-image.png",
   width: 1120,
   height: 630,
-  alt: "Protocon Contabilidade | Escritório de Contabilidade",
+  alt: "Portocon Contabilidade | Escritório de Contabilidade",
 } as const;

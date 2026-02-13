@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/Section";
-import { PROTOCON } from "@/constants/protocon";
+import { PORTOCON } from "@/constants/portocon";
 
 export function StatsSection() {
   const {
@@ -10,7 +10,7 @@ export function StatsSection() {
     purposeNumber,
     purposeLabel,
     purposeSubtitle,
-  } = PROTOCON.stats;
+  } = PORTOCON.stats;
 
   return (
     <Section className="bg-secondary-100">

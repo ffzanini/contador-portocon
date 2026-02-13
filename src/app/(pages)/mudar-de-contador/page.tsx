@@ -6,8 +6,9 @@ import { Hero } from "@/components/ui/Hero";
 import { Section } from "@/components/ui/Section";
 import { PageLoader } from "@/components/ui/PageLoader";
 import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
-import { CHANGE_ACCOUNTANT_STEPS, FAQS } from "@/constants/protocon";
+import { CHANGE_ACCOUNTANT_STEPS, FAQS } from "@/constants/portocon";
 import { SITE_URL } from "@/constants/seo";
+import { ContactOptions } from "@/components/ui/ContactOptions";
 
 const AboutSection = dynamic(
   () =>
@@ -76,11 +77,11 @@ const FAQSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Mude de Contador | Protocon Contabilidade",
+  title: "Mude de Contador | Portocon Contabilidade",
   description:
-    "Mudar de contabilidade nunca foi tão simples. Conte com a Protocon para te ajudar com todo o processo de mudança de contador. Processo rápido e descomplicado.",
+    "Mudar de contabilidade nunca foi tão simples. Conte com a Portocon para te ajudar com todo o processo de mudança de contador. Processo rápido e descomplicado.",
   openGraph: {
-    title: "Mude de Contador | Protocon Contabilidade",
+    title: "Mude de Contador | Portocon Contabilidade",
     description: "Mudar de contabilidade nunca foi tão simples.",
     url: `${SITE_URL}/mudar-de-contador`,
   },
@@ -124,6 +125,14 @@ export default function MudeDeContadorPage() {
                   <p className="text-gray-600">{step.description}</p>
                 </div>
               ))}
+            </div>
+            <div className="mt-12 flex justify-center">
+              <div className="text-center">
+                <p className="mb-4 text-lg font-semibold text-gray-900">
+                  Fale com nosso especialista ou troque de contabilidade
+                </p>
+                <ContactOptions emailSubject="Trocar de Contador" />
+              </div>
             </div>
           </div>
         </Section>

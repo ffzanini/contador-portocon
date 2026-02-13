@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 import { FeatureCard } from "@/components/ui/FeatureCard";
-import { FEATURES } from "@/constants/protocon";
+import { FEATURES } from "@/constants/portocon";
 
 export function FeaturesSection() {
   return (
@@ -32,7 +32,7 @@ export function FeaturesSection() {
               href="/sobre"
               className="inline-flex items-center justify-center rounded-lg bg-gray-900 px-6 py-3 text-base font-semibold text-white transition-all duration-200 hover:bg-secondary-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-600"
             >
-              Conheça a Protocon
+              Conheça a Portocon
             </Link>
           </div>
         </div>

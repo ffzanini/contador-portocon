@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { PROTOCON } from "@/constants/protocon";
+import { PORTOCON } from "@/constants/portocon";
 import { socials } from "@/constants/socials";
 
 const footerNavigation = {
@@ -14,7 +14,7 @@ const footerNavigation = {
     { name: "Mudar de contador", href: "/mudar-de-contador" },
     {
       name: "Fale com um de nossos especialistas",
-      href: `https://api.whatsapp.com/send/?phone=${PROTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Protocon Contabilidade.")}`,
+      href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade.")}`,
       external: true,
     },
   ],
@@ -35,7 +35,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           <div>
             <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-900">
-              Sobre a Protocon
+              Sobre a Portocon
             </h3>
             <ul className="space-y-2">
               {footerNavigation.sobre.map((item) => (
@@ -123,29 +123,35 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-gray-900">
+          <div className="lg:col-span-1">
+            <h3 className="mb-6 text-sm font-bold uppercase tracking-wider text-gray-900">
               Quem nós somos
             </h3>
-            <Link href="/" className="inline-block">
+            <Link href="/" className="inline-block mb-6">
               <Image
                 src="/images/logo/protocon-2.png"
-                alt="Protocon Contabilidade"
+                alt="Portocon Contabilidade"
                 width={1080}
                 height={305}
                 className="h-12 w-auto object-contain"
               />
             </Link>
-            <p className="mt-4 font-semibold text-gray-900">{PROTOCON.name}</p>
-            <address className="mt-3 not-italic">
-              <p className="mb-1.5 text-sm text-gray-600">
-                CNPJ: {PROTOCON.cnpj}
+            <div className="space-y-2">
+              <p className="text-sm leading-relaxed text-gray-600">
+                {PORTOCON.legalName}
               </p>
-              <p className="mb-1.5 text-sm text-gray-600">
-                CRCSC: {PROTOCON.crc}
-              </p>
-              <p className="text-sm text-gray-600">{PROTOCON.address.full}</p>
-            </address>
+              <address className="not-italic space-y-2 text-sm text-gray-600">
+                <p className="leading-relaxed">
+                  <span className="font-medium text-gray-700">CNPJ:</span>{" "}
+                  {PORTOCON.cnpj}
+                </p>
+                <p className="leading-relaxed">
+                  <span className="font-medium text-gray-700">CRC:</span>{" "}
+                  {PORTOCON.crc}
+                </p>
+                <p className="leading-relaxed">{PORTOCON.address.full}</p>
+              </address>
+            </div>
           </div>
         </div>
 
@@ -154,11 +160,11 @@ export function Footer() {
             <Link
               href="/"
               className="flex items-center"
-              aria-label="Protocon - Página inicial"
+              aria-label="Portocon - Página inicial"
             >
               <Image
                 src="/images/logo/protocon-2.png"
-                alt="Protocon Contabilidade"
+                alt="Portocon Contabilidade"
                 width={1300}
                 height={400}
                 className="h-20 w-auto object-contain"
@@ -169,7 +175,7 @@ export function Footer() {
               •
             </span>
             <p className="text-sm text-gray-600" suppressHydrationWarning>
-              ©{new Date().getFullYear()} {PROTOCON.name} todos os direitos
+              ©{new Date().getFullYear()} {PORTOCON.name} todos os direitos
               reservados.
             </p>
           </div>

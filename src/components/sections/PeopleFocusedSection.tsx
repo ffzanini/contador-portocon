@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Section } from "@/components/ui/Section";
-import { WHATSAPP_MESSAGES, PROTOCON } from "@/constants/protocon";
+import { WHATSAPP_MESSAGES, PORTOCON } from "@/constants/portocon";
 
 export function PeopleFocusedSection() {
   const pathname = usePathname();
@@ -23,10 +23,10 @@ export function PeopleFocusedSection() {
       }
     : {
         href: "/sobre",
-        title: "Sobre a Protocon",
-        alt: "Sobre a Protocon",
+        title: "Sobre a Portocon",
+        alt: "Sobre a Portocon",
         description:
-          "Conheça a Protocon, um escritório de contabilidade especializado em descomplicar a sua vida.",
+          "Conheça a Portocon, um escritório de contabilidade especializado em descomplicar a sua vida.",
         imageSrc: "/images/hero/hero-1.jpg",
         whatsappMessage: isHome ? WHATSAPP_MESSAGES.sobre : undefined,
       };
@@ -44,7 +44,7 @@ export function PeopleFocusedSection() {
         href: "/abrir-empresa",
         title: "Abrir Empresa",
         alt: "Abrir Empresa",
-        description: "Abra sua empresa em apenas 3 passos com a Protocon.",
+        description: "Abra sua empresa em apenas 3 passos com a Portocon.",
         whatsappMessage: WHATSAPP_MESSAGES.abrirEmpresa,
       };
 
@@ -58,7 +58,7 @@ export function PeopleFocusedSection() {
     children: React.ReactNode;
   }) => {
     if (isHome && whatsappMessage) {
-      const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PROTOCON.contact.whatsapp}&text=${encodeURIComponent(whatsappMessage)}`;
+      const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent(whatsappMessage)}`;
       return (
         <a
           href={whatsappUrl}

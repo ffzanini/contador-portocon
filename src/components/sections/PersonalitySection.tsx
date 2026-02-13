@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/Section";
-import { PERSONALITY } from "@/constants/protocon";
+import { PERSONALITY } from "@/constants/portocon";
 
 export function PersonalitySection() {
   return (

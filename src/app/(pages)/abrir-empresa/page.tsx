@@ -6,8 +6,9 @@ import { Hero } from "@/components/ui/Hero";
 import { Section } from "@/components/ui/Section";
 import { PageLoader } from "@/components/ui/PageLoader";
 import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
-import { OPEN_COMPANY_STEPS, FAQS } from "@/constants/protocon";
+import { OPEN_COMPANY_STEPS, FAQS } from "@/constants/portocon";
 import { SITE_URL } from "@/constants/seo";
+import { ContactOptions } from "@/components/ui/ContactOptions";
 
 const StepCard = dynamic(
   () =>
@@ -87,12 +88,12 @@ const AboutSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Abrir Empresa | Protocon Contabilidade",
+  title: "Abrir Empresa | Portocon Contabilidade",
   description:
-    "Abra sua empresa em apenas 3 passos com a Protocon. Processo simples, rápido e descomplicado. Conte com especialistas para iniciar seu negócio.",
+    "Abra sua empresa em apenas 3 passos com a Portocon. Processo simples, rápido e descomplicado. Conte com especialistas para iniciar seu negócio.",
   openGraph: {
-    title: "Abrir Empresa | Protocon Contabilidade",
-    description: "Abra sua empresa em apenas 3 passos com a Protocon.",
+    title: "Abrir Empresa | Portocon Contabilidade",
+    description: "Abra sua empresa em apenas 3 passos com a Portocon.",
     url: `${SITE_URL}/abrir-empresa`,
   },
 };
@@ -126,6 +127,14 @@ export default function AbrirEmpresaPage() {
                 image={step.image}
               />
             ))}
+          </div>
+          <div className="mt-12 flex justify-center">
+            <div className="text-center">
+              <p className="mb-4 text-lg font-semibold text-gray-900">
+                Fale com nosso especialista ou abra um CNPJ
+              </p>
+              <ContactOptions emailSubject="Abrir Empresa" />
+            </div>
           </div>
         </Section>
         <ChangeAccountantSection />

@@ -1,22 +1,25 @@
-import { PROTOCON } from "@/constants/protocon";
+import { PORTOCON } from "@/constants/portocon";
 import { SITE_URL } from "@/constants/seo";
 
 export function LocalBusinessStructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AccountingService",
-    name: PROTOCON.name,
+    name: PORTOCON.name,
+    legalName: PORTOCON.legalName,
     description:
       "Escritório de contabilidade especializado em descomplicar a rotina dos pequenos empresários",
     url: SITE_URL,
-    telephone: PROTOCON.contact.phone,
-    email: PROTOCON.contact.email,
+    telephone: PORTOCON.contact.phone,
+    email: PORTOCON.contact.email,
+    taxID: PORTOCON.cnpj,
+    identifier: PORTOCON.crc,
     address: {
       "@type": "PostalAddress",
-      streetAddress: PROTOCON.address.street,
-      addressLocality: PROTOCON.address.city,
-      addressRegion: PROTOCON.address.state,
-      postalCode: PROTOCON.address.zipCode,
+      streetAddress: PORTOCON.address.street,
+      addressLocality: PORTOCON.address.city,
+      addressRegion: PORTOCON.address.state,
+      postalCode: PORTOCON.address.zipCode,
       addressCountry: "BR",
     },
     priceRange: "R$289+",
@@ -31,7 +34,7 @@ export function LocalBusinessStructuredData() {
       "Departamento Pessoal",
       "Departamento Contábil",
     ],
-    foundingDate: `${PROTOCON.stats.foundedYear}-01-01`,
+    foundingDate: `${PORTOCON.stats.foundedYear}-01-01`,
   };
 
   return (
@@ -46,19 +49,19 @@ export function OrganizationStructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: PROTOCON.name,
+    name: PORTOCON.name,
     url: SITE_URL,
     logo: `${SITE_URL}/images/logo.png`,
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: PROTOCON.contact.phone,
+      telephone: PORTOCON.contact.phone,
       contactType: "customer service",
       areaServed: "BR",
       availableLanguage: "Portuguese",
     },
     sameAs: [
-      PROTOCON.socials.instagram,
-      PROTOCON.socials.linkedin,
+      PORTOCON.socials.instagram,
+      PORTOCON.socials.linkedin,
     ],
   };
 
