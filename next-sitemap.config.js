@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
-const SITE_URL = "https://protocon.com.br"; // Atualizar com URL real
+const SITE_URL = "https://portocon.com.br"; // Atualizar com URL real
 
 const config = {
   siteUrl: SITE_URL,

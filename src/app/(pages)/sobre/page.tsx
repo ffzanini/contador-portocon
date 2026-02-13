@@ -75,11 +75,11 @@ const ServicesOfferedSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Sobre | Portocon Contabilidade",
+  title: "Sobre | Portocon Contabilidade e Assessoria LTDA",
   description:
     "Conheça a Portocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade. Contabilidade prática, moderna e humanizada.",
   openGraph: {
-    title: "Sobre | Portocon Contabilidade",
+    title: "Sobre | Portocon Contabilidade e Assessoria LTDA",
     description:
       "Conheça a Portocon: um escritório novo fundado por uma dupla de sócios com anos de experiência em contabilidade.",
     url: `${SITE_URL}/sobre`,

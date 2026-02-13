@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://protocon.com.br
+Host: https://portocon.com.br
 
 # Sitemaps
-Sitemap: https://protocon.com.br/sitemap.xml
+Sitemap: https://portocon.com.br/sitemap.xml

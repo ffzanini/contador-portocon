@@ -1,6 +1,6 @@
 # Imagens dos Departamentos
 
-Esta pasta contém as imagens/ilustrações dos 3 departamentos da Protocon.
+Esta pasta contém as imagens/ilustrações dos 3 departamentos da Portocon.
 
 ## Departamentos
 

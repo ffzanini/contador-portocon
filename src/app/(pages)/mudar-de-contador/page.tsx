@@ -77,11 +77,11 @@ const FAQSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Mude de Contador | Portocon Contabilidade",
+  title: "Mude de Contador | Portocon Contabilidade e Assessoria LTDA",
   description:
     "Mudar de contabilidade nunca foi tão simples. Conte com a Portocon para te ajudar com todo o processo de mudança de contador. Processo rápido e descomplicado.",
   openGraph: {
-    title: "Mude de Contador | Portocon Contabilidade",
+    title: "Mude de Contador | Portocon Contabilidade e Assessoria LTDA",
     description: "Mudar de contabilidade nunca foi tão simples.",
     url: `${SITE_URL}/mudar-de-contador`,
   },

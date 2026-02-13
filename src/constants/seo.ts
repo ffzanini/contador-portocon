@@ -1,20 +1,20 @@
-export const SITE_URL = "https://contabilidadeprotocon.com.br" as const;
+export const SITE_URL = "https://contabilidadeportocon.com.br" as const;
 
 export const PERSON = {
-  name: "Portocon Contabilidade",
+  name: "Portocon Contabilidade e Assessoria LTDA",
   nameShort: "Portocon",
   nickname: "portocon",
   jobTitle: "Contabilidade",
   jobTitleEn: "Accounting",
   description:
-    "Portocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
+    "Portocon Contabilidade e Assessoria LTDA - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
   descriptionLong:
-    "Portocon Contabilidade - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
+    "Portocon Contabilidade e Assessoria LTDA - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
 } as const;
 
 export const SEO_KEYWORDS = [
   "Portocon",
-  "Portocon Contabilidade",
+  "Portocon Contabilidade e Assessoria LTDA",
   "contabilidade Portocon",
   "escritório Portocon",
 
@@ -72,5 +72,5 @@ export const DEFAULT_OG_IMAGE = {
   url: "/images/og-image.png",
   width: 1120,
   height: 630,
-  alt: "Portocon Contabilidade | Escritório de Contabilidade",
+  alt: "Portocon Contabilidade e Assessoria LTDA | Escritório de Contabilidade",
 } as const;

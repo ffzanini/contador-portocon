@@ -5,13 +5,13 @@ import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
 import { SITE_URL } from "@/constants/seo";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidade | Protocon Contabilidade",
+  title: "Política de Privacidade | Portocon Contabilidade e Assessoria LTDA",
   description:
-    "Política de privacidade da Protocon Contabilidade. Conheça como tratamos suas informações e dados no site e em nossos serviços.",
+    "Política de privacidade da Portocon Contabilidade e Assessoria LTDA. Conheça como tratamos suas informações e dados no site e em nossos serviços.",
   openGraph: {
-    title: "Política de Privacidade | Protocon Contabilidade",
+    title: "Política de Privacidade | Portocon Contabilidade e Assessoria LTDA",
     description:
-      "Política de privacidade da Protocon Contabilidade. Conheça como tratamos suas informações e dados no site e em nossos serviços.",
+      "Política de privacidade da Portocon Contabilidade e Assessoria LTDA. Conheça como tratamos suas informações e dados no site e em nossos serviços.",
     url: `${SITE_URL}/politica-de-privacidade`,
   },
   alternates: {
@@ -37,9 +37,9 @@ export default function PoliticaDePrivacidadePage() {
           <div className="space-y-6 text-gray-700 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-gray-900 [&_h3]:mt-6 [&_h3]:text-xl [&_h3]:font-bold [&_h3]:text-gray-900 [&_ul]:list-disc [&_ul]:pl-6 [&_li]:my-2">
             <h2>Política de Privacidade</h2>
             <p>
-              É política da Protocon Contabilidade respeitar a sua privacidade
+              É política da Portocon Contabilidade e Assessoria LTDA respeitar a sua privacidade
               em relação a qualquer informação sua que possamos coletar no site
-              Protocon Contabilidade, e outros sites que possuímos e operamos.
+              Portocon Contabilidade e Assessoria LTDA, e outros sites que possuímos e operamos.
             </p>
 
             <p>
@@ -82,7 +82,7 @@ export default function PoliticaDePrivacidadePage() {
               informações pessoais, entre em contato conosco.
             </p>
 
-            <h2>Política de Cookies Protocon Contabilidade</h2>
+            <h2>Política de Cookies Portocon Contabilidade e Assessoria LTDA</h2>
 
             <h3>O que são cookies?</h3>
             <p>
@@ -174,7 +174,7 @@ export default function PoliticaDePrivacidadePage() {
             <h3>Compromisso do Usuário</h3>
             <p>
               O usuário se compromete a fazer uso adequado dos conteúdos e da
-              informação que a Protocon Contabilidade oferece no site e com
+              informação que a Portocon Contabilidade e Assessoria LTDA oferece no site e com
               caráter enunciativo, mas não limitativo:
             </p>
             <ul>
@@ -190,7 +190,7 @@ export default function PoliticaDePrivacidadePage() {
               </li>
               <li>
                 C) Não causar danos aos sistemas físicos (hardwares) e lógicos
-                (softwares) da Protocon Contabilidade, de seus fornecedores ou
+                (softwares) da Portocon Contabilidade e Assessoria LTDA, de seus fornecedores ou
                 terceiros, para introduzir ou disseminar vírus informáticos ou
                 quaisquer outros sistemas de hardware ou software que sejam
                 capazes de causar danos anteriormente mencionados.

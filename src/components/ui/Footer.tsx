@@ -14,7 +14,7 @@ const footerNavigation = {
     { name: "Mudar de contador", href: "/mudar-de-contador" },
     {
       name: "Fale com um de nossos especialistas",
-      href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade.")}`,
+      href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade e Assessoria LTDA.")}`,
       external: true,
     },
   ],
@@ -129,8 +129,8 @@ export function Footer() {
             </h3>
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/images/logo/protocon-2.png"
-                alt="Portocon Contabilidade"
+                src="/images/logo/portocon-2.png"
+                alt="Portocon Contabilidade e Assessoria LTDA"
                 width={1080}
                 height={305}
                 className="h-12 w-auto object-contain"
@@ -163,8 +163,8 @@ export function Footer() {
               aria-label="Portocon - Página inicial"
             >
               <Image
-                src="/images/logo/protocon-2.png"
-                alt="Portocon Contabilidade"
+                src="/images/logo/portocon-2.png"
+                alt="Portocon Contabilidade e Assessoria LTDA"
                 width={1300}
                 height={400}
                 className="h-20 w-auto object-contain"

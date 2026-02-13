@@ -93,8 +93,8 @@ export function Header() {
             aria-label="Portocon - Página inicial"
           >
             <Image
-              src="/images/logo/protocon.png"
-              alt="Portocon Contabilidade"
+              src="/images/logo/portocon.png"
+              alt="Portocon Contabilidade e Assessoria LTDA"
               width={1300}
               height={400}
               className="h-14 w-auto max-h-14 object-contain md:max-h-none md:h-16"

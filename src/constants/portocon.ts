@@ -312,7 +312,7 @@ export const WHATSAPP_MESSAGES = {
     "Olá! Gostaria de falar com um consultor. Estou interessado em: Trocar de contador. Vi o contato no site!",
   outrosServicos:
     "Olá! Gostaria de falar com um consultor. Estou interessado em: Contratar outro tipo de serviço. Vi o contato no site!",
-  sobre: "Olá! Gostaria de conhecer mais sobre a Portocon Contabilidade.",
+  sobre: "Olá! Gostaria de conhecer mais sobre a Portocon Contabilidade e Assessoria LTDA.",
   escritorio:
     "Olá! Gostaria de saber mais sobre o escritório físico da Portocon.",
 } as const;

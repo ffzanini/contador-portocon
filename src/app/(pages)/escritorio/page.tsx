@@ -44,11 +44,11 @@ const PeopleFocusedSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Nosso Escritório | Portocon Contabilidade",
+  title: "Nosso Escritório | Portocon Contabilidade e Assessoria LTDA",
   description:
     "Conheça o escritório físico da Portocon. Um espaço moderno e acolhedor pronto para receber você sempre que precisar de atendimento presencial.",
   openGraph: {
-    title: "Nosso Escritório | Portocon Contabilidade",
+    title: "Nosso Escritório | Portocon Contabilidade e Assessoria LTDA",
     description:
       "Conheça o escritório físico da Portocon. Um espaço moderno e acolhedor pronto para receber você sempre que precisar.",
     url: `${SITE_URL}/escritorio`,

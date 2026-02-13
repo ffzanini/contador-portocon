@@ -19,7 +19,7 @@ export const socials = [
   },
   {
     icon: RiWhatsappLine,
-    href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade.")}`,
+    href: `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent("Olá! Gostaria de saber mais sobre a Portocon Contabilidade e Assessoria LTDA.")}`,
     name: "WhatsApp",
   },
   {

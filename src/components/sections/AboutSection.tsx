@@ -67,7 +67,7 @@ export function AboutSection({ variant = "summary" }: AboutSectionProps) {
           <div className="relative order-2 aspect-4/3 overflow-hidden rounded-2xl lg:order-1 lg:aspect-auto lg:min-h-[400px]">
             <Image
               src="/images/hero/hero-1.jpg"
-              alt="Sobre a Portocon Contabilidade"
+              alt="Sobre a Portocon Contabilidade e Assessoria LTDA"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"

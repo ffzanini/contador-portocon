@@ -1,6 +1,6 @@
-# Protocon
+# Portocon
 
-**Site institucional** de navegação para a **Protocon Contabilidade**.
+**Site institucional** de navegação para a **Portocon Contabilidade e Assessoria LTDA**.
 
 [Sobre](#-sobre-o-projeto) &nbsp;&nbsp;•&nbsp;&nbsp; [Funcionalidades](#-funcionalidades) &nbsp;&nbsp;•&nbsp;&nbsp; [Tecnologias](#-tecnologias) &nbsp;&nbsp;•&nbsp;&nbsp; [Como executar](#-como-executar) &nbsp;&nbsp;•&nbsp;&nbsp; [Deploy](#-deploy) &nbsp;&nbsp;•&nbsp;&nbsp; [Contato](#-contato)
 
@@ -8,7 +8,7 @@
 
 ## 📋 Sobre o projeto
 
-Este repositório contém o **site institucional** da **Protocon Contabilidade**, pensado como vitrine dos serviços, diferenciais e formas de contato da empresa. O foco é **usabilidade** e **clareza**: navegação intuitiva, páginas dedicadas (abrir empresa, mudar de contador, escritório, sobre), tema claro/escuro e integração com WhatsApp.
+Este repositório contém o **site institucional** da **Portocon Contabilidade e Assessoria LTDA**, pensado como vitrine dos serviços, diferenciais e formas de contato da empresa. O foco é **usabilidade** e **clareza**: navegação intuitiva, páginas dedicadas (abrir empresa, mudar de contador, escritório, sobre), tema claro/escuro e integração com WhatsApp.
 
 O projeto foi desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS**, priorizando performance, SEO (sitemap, metadados) e boa experiência em dispositivos móveis e desktop.
 
@@ -61,8 +61,8 @@ O projeto foi desenvolvido com **Next.js**, **TypeScript** e **Tailwind CSS**, p
 **1. Clonar o repositório**
 
 ```bash
-git clone https://github.com/ffzanini/contador-protocon.git
-cd contador-protocon
+git clone https://github.com/ffzanini/contador-portocon.git
+cd contador-portocon
 ```
 
 **2. Instalar dependências**
@@ -100,11 +100,11 @@ Para Analytics e Speed Insights, as integrações são feitas via pacotes `@verc
 
 ## 👋 Contato
 
-Dúvidas sobre o projeto ou sobre os serviços da Protocon Contabilidade:
+Dúvidas sobre o projeto ou sobre os serviços da Portocon Contabilidade e Assessoria LTDA:
 
-- **Site:** [protocon.com.br](https://www.protocon.com.br) (ou URL de produção do projeto)
-- **LinkedIn:** [linkedin.com/company/protocon](https://www.linkedin.com/company/protocon/)
-- **Instagram:** [@protocon](https://www.instagram.com/protocon/)
+- **Site:** [portocon.com.br](https://www.portocon.com.br) (ou URL de produção do projeto)
+- **LinkedIn:** [linkedin.com/company/portocon](https://www.linkedin.com/company/portocon/)
+- **Instagram:** [@portocon](https://www.instagram.com/portocon/)
 
 ---
 

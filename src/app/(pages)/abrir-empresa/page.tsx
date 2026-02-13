@@ -88,11 +88,11 @@ const AboutSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Abrir Empresa | Portocon Contabilidade",
+  title: "Abrir Empresa | Portocon Contabilidade e Assessoria LTDA",
   description:
     "Abra sua empresa em apenas 3 passos com a Portocon. Processo simples, rápido e descomplicado. Conte com especialistas para iniciar seu negócio.",
   openGraph: {
-    title: "Abrir Empresa | Portocon Contabilidade",
+    title: "Abrir Empresa | Portocon Contabilidade e Assessoria LTDA",
     description: "Abra sua empresa em apenas 3 passos com a Portocon.",
     url: `${SITE_URL}/abrir-empresa`,
   },

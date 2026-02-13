@@ -1,6 +1,6 @@
 # Assets de Imagens
 
-Esta pasta contém todos os assets de imagem utilizados no site da Protocon Contabilidade.
+Esta pasta contém todos os assets de imagem utilizados no site da Portocon Contabilidade e Assessoria LTDA.
 
 ## Estrutura de Pastas
 
@@ -51,7 +51,7 @@ public/images/
 
 ## Uso no Código
 
-As imagens são referenciadas através das constantes em `src/constants/protocon.ts`:
+As imagens são referenciadas através das constantes em `src/constants/portocon.ts`:
 
 ```typescript
 // Exemplo de uso em etapas
