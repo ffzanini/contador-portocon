@@ -24,7 +24,7 @@ export const PORTOCON = {
     officeHours: "Segunda a Sexta: 8h às 18h",
   },
   socials: {
-    instagram: "https://www.instagram.com/portocon/",
+    instagram: "https://www.instagram.com/_portocon/",
     linkedin: "https://www.linkedin.com/company/portocon/",
   },
   stats: {
@@ -45,7 +45,7 @@ export const HERO_TEXTS = {
     title:
       "Seu porto seguro empresarial. Contabilidade personalizada para cuidar da sua empresa.",
     subtitle:
-      "Não somos especialistas genéricos. Somos personalizados para cuidar da sua empresa. Do primeiro CNPJ ao dia a dia do seu negócio, oferecemos a segurança empresarial que você merece.",
+      "Somos a escolha certa para cuidar da sua empresa. Do primeiro CNPJ ao dia a dia do seu negócio, oferecemos um atendimento personalizado e a segurança empresarial que você merece.",
   },
   sobre: {
     title: "Contabilidade de empresas feita para as pessoas",
@@ -269,11 +269,6 @@ export const FAQS = [
     question: "Como faço para mudar de contabilidade?",
     answer:
       "O processo de mudança de contabilidade é muito rápido e simples, sendo a única restrição o contrato de prestação de serviço com seu contador atual. Toda a troca de informação acontecerá diretamente entre a Portocon e seu atual contador, e você precisará apenas informar que deseja mudar de contabilidade, todo o restante é com a Portocon.",
-  },
-  {
-    question: "Qual é o custo da mensalidade da Portocon?",
-    answer:
-      "O valor da mensalidade da Portocon dependerá do porte da empresa e da sua área de atuação, com valores iniciando em R$405,50 por mês. Converse com um de nossos especialistas e solicite um orçamento para sua empresa.",
   },
 ] as const;
 

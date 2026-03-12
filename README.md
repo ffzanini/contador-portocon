@@ -102,7 +102,7 @@ Dúvidas sobre o projeto ou sobre os serviços da Portocon Contabilidade e Asses
 
 - **Site:** [portocon.com.br](https://www.portocon.com.br) (ou URL de produção do projeto)
 - **LinkedIn:** [linkedin.com/company/portocon](https://www.linkedin.com/company/portocon/)
-- **Instagram:** [@portocon](https://www.instagram.com/portocon/)
+- **Instagram:** [@_portocon](https://www.instagram.com/_portocon/)
 
 ---
 
