@@ -44,13 +44,13 @@ const PeopleFocusedSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Nosso Escritório | Portocon Contabilidade e Assessoria LTDA",
+  title: "Escritório de Contabilidade em Brusque | Portocon",
   description:
-    "Conheça o escritório físico da Portocon. Um espaço moderno e acolhedor pronto para receber você sempre que precisar de atendimento presencial.",
+    "Conheça o escritório de contabilidade da Portocon em Brusque, SC. Um espaço moderno e acolhedor para atendimento presencial quando você precisar.",
   openGraph: {
-    title: "Nosso Escritório | Portocon Contabilidade e Assessoria LTDA",
+    title: "Escritório de Contabilidade em Brusque | Portocon",
     description:
-      "Conheça o escritório físico da Portocon. Um espaço moderno e acolhedor pronto para receber você sempre que precisar.",
+      "Conheça o escritório da Portocon em Brusque, SC. Atendimento presencial com o suporte próximo que a sua empresa precisa.",
     url: `${SITE_URL}/escritorio`,
   },
 };
@@ -76,7 +76,8 @@ export default function EscritorioPage() {
               </h2>
               <p className="text-lg text-gray-600">
                 Somos digitais por essência, mas não abrimos mão de um espaço
-                físico pronto para receber você sempre que precisar.
+                físico em Brusque, SC, pronto para receber você sempre que
+                precisar.
               </p>
             </div>
 

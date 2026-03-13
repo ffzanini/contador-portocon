@@ -10,6 +10,7 @@ export function LocalBusinessStructuredData() {
     description:
       "Escritório de contabilidade especializado em descomplicar a rotina dos pequenos empresários",
     url: SITE_URL,
+    image: `${SITE_URL}/images/logo/portocon-2.png`,
     telephone: PORTOCON.contact.phone,
     email: PORTOCON.contact.email,
     taxID: PORTOCON.cnpj,
@@ -23,10 +24,38 @@ export function LocalBusinessStructuredData() {
       addressCountry: "BR",
     },
     priceRange: "R$289+",
-    areaServed: {
-      "@type": "Country",
-      name: "Brasil",
-    },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Brusque",
+        containedInPlace: {
+          "@type": "State",
+          name: "Santa Catarina",
+        },
+      },
+      {
+        "@type": "State",
+        name: "Santa Catarina",
+      },
+      {
+        "@type": "Country",
+        name: "Brasil",
+      },
+    ],
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+        ],
+        opens: "08:00",
+        closes: "18:00",
+      },
+    ],
     serviceType: [
       "Contabilidade",
       "Abertura de Empresa",

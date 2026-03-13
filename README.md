@@ -100,7 +100,7 @@ Para Analytics e Speed Insights, as integrações são feitas via pacotes `@verc
 
 Dúvidas sobre o projeto ou sobre os serviços da Portocon Contabilidade e Assessoria LTDA:
 
-- **Site:** [portocon.com.br](https://www.portocon.com.br) (ou URL de produção do projeto)
+- **Site:** [contabilidadeportocon.com.br](https://www.contabilidadeportocon.com.br)
 - **Instagram:** [@_portocon](https://www.instagram.com/_portocon/)
 
 ---

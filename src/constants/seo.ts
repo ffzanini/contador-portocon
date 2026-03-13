@@ -1,4 +1,4 @@
-export const SITE_URL = "https://contabilidadeportocon.com.br" as const;
+export const SITE_URL = "https://www.contabilidadeportocon.com.br" as const;
 
 export const PERSON = {
   name: "Portocon Contabilidade e Assessoria LTDA",
@@ -7,9 +7,9 @@ export const PERSON = {
   jobTitle: "Contabilidade",
   jobTitleEn: "Accounting",
   description:
-    "Portocon Contabilidade e Assessoria LTDA - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
+    "Portocon Contabilidade e Assessoria LTDA - Escritório de contabilidade em Brusque, SC, fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna. Atendemos MEI, Simples Nacional e Lucro Presumido.",
   descriptionLong:
-    "Portocon Contabilidade e Assessoria LTDA - Escritório fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
+    "Portocon Contabilidade e Assessoria LTDA - Escritório de contabilidade em Brusque, SC, fundado por uma dupla de sócios com experiência de anos no mercado. Atendimento dedicado ao pequeno empresário. Contabilidade prática e moderna, com soluções digitais fáceis de usar e compromisso em encantar a cada atendimento.",
 } as const;
 
 export const SEO_KEYWORDS = [
@@ -56,6 +56,20 @@ export const SEO_KEYWORDS = [
   "contabilidade Brasil",
   "contabilidade SC",
   "contabilidade Santa Catarina",
+  "contador brusque",
+  "contador em Brusque",
+  "contabilidade Brusque",
+  "contabilidade em Brusque",
+  "contador Brusque SC",
+  "escritório de contabilidade Brusque",
+  "contabilidade Santa Catarina Brusque",
+  "contador região de Brusque",
+  "contador Águas Claras Brusque",
+  "abrir empresa Brusque",
+  "contador para MEI Brusque",
+  "mudar de contador Brusque",
+  "melhor contador Brusque",
+  "contador próximo Brusque",
 
   "contador online",
   "contador digital",

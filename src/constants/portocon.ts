@@ -44,7 +44,7 @@ export const HERO_TEXTS = {
     title:
       "Seu porto seguro empresarial. Contabilidade personalizada para cuidar da sua empresa.",
     subtitle:
-      "Somos a escolha certa para cuidar da sua empresa. Do primeiro CNPJ ao dia a dia do seu negócio, oferecemos um atendimento personalizado e a segurança empresarial que você merece.",
+      "Somos a escolha certa para cuidar da sua empresa em Brusque e região. Do primeiro CNPJ ao dia a dia do seu negócio, oferecemos um atendimento personalizado e a segurança empresarial que você merece.",
   },
   sobre: {
     title: "Contabilidade de empresas feita para as pessoas",

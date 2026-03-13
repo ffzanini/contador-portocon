@@ -5,7 +5,7 @@ import { Footer } from "@/components/ui/Footer";
 import { Hero } from "@/components/ui/Hero";
 import { PageLoader } from "@/components/ui/PageLoader";
 import { BreadcrumbStructuredData } from "@/components/seo/StructuredData";
-import { SITE_URL, PERSON } from "@/constants/seo";
+import { SITE_URL } from "@/constants/seo";
 
 const FeaturesSection = dynamic(
   () =>
@@ -48,11 +48,13 @@ const AboutSection = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: "Home",
-  description: PERSON.description,
+  title: "Contador em Brusque",
+  description:
+    "Escritório de contabilidade em Brusque, SC, especializado em MEI, Simples Nacional e Lucro Presumido. Atendimento próximo, prático e moderno para pequenas empresas.",
   openGraph: {
-    title: `${PERSON.name} | ${PERSON.jobTitle}`,
-    description: PERSON.description,
+    title: "Contador em Brusque | Portocon Contabilidade",
+    description:
+      "Escritório de contabilidade em Brusque, SC, especializado em MEI, Simples Nacional e Lucro Presumido.",
     url: SITE_URL,
   },
 };

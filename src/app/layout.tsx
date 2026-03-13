@@ -17,7 +17,7 @@ import {
 import { fontMontserrat } from "./fonts";
 import "./globals.css";
 
-const title = `${PERSON.name} | ${PERSON.jobTitle}`;
+const title = "Contador em Brusque | Portocon Contabilidade";
 const description = PERSON.description;
 
 export const metadata: Metadata = {
