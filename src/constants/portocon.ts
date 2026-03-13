@@ -25,7 +25,6 @@ export const PORTOCON = {
   },
   socials: {
     instagram: "https://www.instagram.com/_portocon/",
-    linkedin: "https://www.linkedin.com/company/portocon/",
   },
   stats: {
     foundedYear: 2024,

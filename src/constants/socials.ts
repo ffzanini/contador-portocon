@@ -1,5 +1,4 @@
 import {
-  RiLinkedinLine,
   RiInstagramLine,
   RiWhatsappLine,
   RiMailLine,
@@ -11,11 +10,6 @@ export const socials = [
     icon: RiInstagramLine,
     href: PORTOCON.socials.instagram,
     name: "Instagram",
-  },
-  {
-    icon: RiLinkedinLine,
-    href: PORTOCON.socials.linkedin,
-    name: "LinkedIn",
   },
   {
     icon: RiWhatsappLine,

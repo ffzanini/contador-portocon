@@ -123,7 +123,7 @@ export default function EscritorioPage() {
                   <div className="flex flex-col gap-3">
                     {socials
                       .filter(
-                        (s) => s.name === "Instagram" || s.name === "LinkedIn",
+                        (s) => s.name === "Instagram",
                       )
                       .map((item) => {
                         const Icon = item.icon;

@@ -26,7 +26,7 @@ const footerNavigation = {
 };
 
 const footerSocials = socials.filter(
-  (s) => s.name === "Instagram" || s.name === "LinkedIn",
+  (s) => s.name === "Instagram",
 );
 
 export function Footer() {

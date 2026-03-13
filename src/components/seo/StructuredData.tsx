@@ -61,7 +61,6 @@ export function OrganizationStructuredData() {
     },
     sameAs: [
       PORTOCON.socials.instagram,
-      PORTOCON.socials.linkedin,
     ],
   };
 

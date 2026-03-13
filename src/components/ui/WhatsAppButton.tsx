@@ -3,6 +3,7 @@
 import { RiWhatsappLine } from "react-icons/ri";
 import { PORTOCON, WHATSAPP_MESSAGES } from "@/constants/portocon";
 import { usePathname } from "next/navigation";
+import { track } from "@vercel/analytics";
 import { cn } from "@/libs/cn";
 
 interface WhatsAppButtonProps {
@@ -29,6 +30,12 @@ export function WhatsAppButton({
   };
 
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${PORTOCON.contact.whatsapp}&text=${encodeURIComponent(getMessage())}`;
+  const handleClick = () => {
+    track("whatsapp_click", {
+      page: pathname,
+      variant,
+    });
+  };
 
   if (variant === "link") {
     return (
@@ -36,6 +43,7 @@ export function WhatsAppButton({
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleClick}
         className={cn("inline-flex items-center gap-2", className)}
       >
         <RiWhatsappLine className="h-5 w-5" />
@@ -49,6 +57,7 @@ export function WhatsAppButton({
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className={cn(
         "inline-flex items-center justify-center gap-2 rounded-lg bg-[#25D366] px-6 py-3 text-base font-semibold text-white transition-all duration-200 hover:bg-[#20BA5A] focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2",
         className,

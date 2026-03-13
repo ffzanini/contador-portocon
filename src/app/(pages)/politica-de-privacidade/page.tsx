@@ -167,11 +167,11 @@ export default function PoliticaDePrivacidadePage() {
             <h3>Cookies de Terceiros</h3>
             <p>
               Em alguns casos especiais, também usamos cookies fornecidos por
-              terceiros confiáveis. Este site pode usar o Google Analytics, que
-              é uma das soluções de análise mais difundidas e confiáveis da Web,
-              para nos ajudar a entender como você usa o site e como podemos
-              melhorar sua experiência. Esses cookies podem rastrear itens como
-              quanto tempo você gasta no site e as páginas visitadas.
+              terceiros confiáveis. Este site utiliza ferramentas como Vercel
+              Web Analytics e Vercel Speed Insights para nos ajudar a entender
+              como você usa o site e como podemos melhorar sua experiência.
+              Esses cookies podem rastrear itens como quanto tempo você gasta
+              no site, páginas visitadas e métricas de desempenho.
             </p>
 
             <h3>Compromisso do Usuário</h3>

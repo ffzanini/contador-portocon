@@ -1,4 +1,7 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Toaster } from "react-hot-toast";
 
 import {
   SITE_URL,
@@ -90,6 +93,9 @@ export default function RootLayout({
       </head>
       <body className={`${fontMontserrat.className} antialiased`}>
         {children}
+        <Toaster position="top-right" />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
